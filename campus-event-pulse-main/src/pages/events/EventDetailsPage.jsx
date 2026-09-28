@@ -396,13 +396,8 @@ export function EventDetailsPage() {
                       Edit Event
                     </Link>
                   )}
-                  <Link
-                    to="/organizer/events"
-                    className="w-full flex items-center justify-center gap-2 px-4 py-2 rounded-xl font-semibold text-xs text-[#6b7280] hover:text-[#0f1117] transition-colors"
-                  >
-                    ← Back to My Events
-                  </Link>
                 </div>
+              ) : null}
             </div>
           </div>
         </div>
